@@ -1,0 +1,16 @@
+export default function manifest() {
+  return {
+    name: 'Coffee Hut Club',
+    short_name: 'Coffee Hut',
+    start_url: '/home',
+    display: 'standalone',
+    background_color: '#F2F3F6',
+    theme_color: '#2E3540',
+    lang: 'el',
+    icons: [
+      { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+      { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+      { src: '/icons/icon-maskable-512.png', sizes: '512x512', type: 'image/png', purpose: 'maskable' },
+    ],
+  }
+}
